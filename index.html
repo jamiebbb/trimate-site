@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trimate — Triathlon training that adapts to you</title>
+  <meta name="description" content="Trimate builds personalized swim, bike, and run training plans with structured daily workouts, guided sessions, training-load analytics, and race fueling." />
+  <style>
+    :root {
+      --bg: #0B1220; --surface: #151E2E; --surface-alt: #1E2A3D;
+      --text: #E6EBF2; --dim: #94A3B8; --primary: #2DD4BF; --border: #243247;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      background: var(--bg); color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    .logo { color: var(--primary); font-weight: 800; letter-spacing: -0.5px; font-size: 22px; }
+    h1 { font-size: clamp(32px, 6vw, 48px); line-height: 1.15; letter-spacing: -1px; margin: 40px 0 16px; }
+    h1 span { color: var(--primary); }
+    .tagline { color: var(--dim); font-size: 18px; max-width: 54ch; }
+    .badge {
+      display: inline-block; margin-top: 28px; padding: 12px 22px; border-radius: 12px;
+      background: var(--primary); color: #06281f; font-weight: 700; text-decoration: none;
+    }
+    .badge.soon { background: var(--surface-alt); color: var(--dim); cursor: default; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin-top: 56px; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+    .card h3 { font-size: 15px; color: var(--primary); margin-bottom: 6px; }
+    .card p { font-size: 14px; color: var(--dim); }
+    footer { margin-top: 72px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--dim); font-size: 14px; }
+    footer a { color: var(--primary); text-decoration: none; }
+    section#support { margin-top: 56px; }
+    section#support h2 { font-size: 20px; margin-bottom: 8px; }
+    section#support p { color: var(--dim); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="logo">Trimate</div>
+
+    <h1>Triathlon training that <span>adapts to you</span>.</h1>
+    <p class="tagline">
+      Personalized, periodized plans for swim, bike, and run — structured daily workouts
+      with your own pace, power, and effort targets, guided sessions on your phone and
+      watch, training-load analytics, and race-day fueling built in.
+    </p>
+    <span class="badge soon">Coming soon to the App&nbsp;Store</span>
+
+    <div class="grid">
+      <div class="card">
+        <h3>A plan built for you</h3>
+        <p>Tell Trimate your race and your life. It periodizes every week — base, build,
+           peak, taper — and lands you on the start line ready.</p>
+      </div>
+      <div class="card">
+        <h3>Guided sessions</h3>
+        <p>Interval-by-interval coaching with live targets, on your iPhone, Lock Screen,
+           and Apple Watch.</p>
+      </div>
+      <div class="card">
+        <h3>Syncs with your watch</h3>
+        <p>Strava sync today; structured-workout export for Garmin and COROS, with native
+           integrations on the way.</p>
+      </div>
+      <div class="card">
+        <h3>Fuel the work</h3>
+        <p>Daily energy, carb, protein, and hydration targets periodized to your training,
+           plus per-session race fueling.</p>
+      </div>
+    </div>
+
+    <section id="support">
+      <h2>Support</h2>
+      <p>
+        Questions, feedback, or trouble with the app? Email
+        <a href="mailto:support@trimateapp.com" style="color:var(--primary)">support@trimateapp.com</a>
+        and we'll get back to you quickly.
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2026 Trimate · <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Trimate</title>
+  <style>
+    :root {
+      --bg: #0B1220; --surface: #151E2E; --text: #E6EBF2; --dim: #94A3B8;
+      --primary: #2DD4BF; --border: #243247;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body { background: var(--bg); color: var(--text); font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    .logo { color: var(--primary); font-weight: 800; font-size: 22px; }
+    .logo a { color: inherit; text-decoration: none; }
+    h1 { font-size: 32px; margin: 32px 0 4px; letter-spacing: -0.5px; }
+    .date { color: var(--dim); font-size: 14px; margin-bottom: 32px; }
+    h2 { font-size: 19px; color: var(--primary); margin: 32px 0 8px; }
+    p, li { color: var(--dim); }
+    strong { color: var(--text); }
+    ul { padding-left: 22px; margin: 8px 0; }
+    a { color: var(--primary); }
+    footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--dim); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="logo"><a href="index.html">Trimate</a></div>
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective 10 June 2026</p>
+
+    <p>
+      Trimate is a triathlon training app. This policy explains what data the app handles,
+      why, and the control you have over it. The short version: <strong>your data is used only
+      to provide your training experience, it is never sold, and it is never used for
+      advertising.</strong>
+    </p>
+
+    <h2>Data we collect</h2>
+    <ul>
+      <li><strong>Account:</strong> your email address and a password (handled by our
+        authentication provider; we never see or store your password in plain text).</li>
+      <li><strong>Profile &amp; training data:</strong> the details you enter to build your plan —
+        body metrics (e.g. weight, height, age, biological sex), fitness baselines, race goals,
+        your training plan, and the workouts you complete (duration, distance, heart rate,
+        pace, power).</li>
+      <li><strong>Nutrition data:</strong> dietary preferences, exclusions, and meal/fueling
+        logs, if you use the Fuel features.</li>
+    </ul>
+
+    <h2>Apple Health (HealthKit)</h2>
+    <p>
+      With your permission, Trimate reads data such as workouts, heart rate, and activity from
+      Apple Health to personalize your plan and record guided sessions, and saves completed
+      sessions back to Health. <strong>HealthKit data is never used for advertising or
+      marketing, is never sold, and is never shared with third parties.</strong> You can revoke
+      access at any time in iOS Settings.
+    </p>
+
+    <h2>Connected services (Strava, Garmin, COROS)</h2>
+    <p>
+      If you choose to connect a service like Strava, Garmin, or COROS, Trimate uses that
+      connection — authorized by you via OAuth — to send your planned workouts to your watch
+      and/or receive your completed activities, so sessions are marked done automatically and
+      your training load stays accurate. You can disconnect at any time in the app, which
+      deletes the connection and its tokens. If you revoke access from the provider's side,
+      we honour it and remove the provider's data.
+    </p>
+
+    <h2>Where your data lives</h2>
+    <p>
+      Data is stored in our database hosted by <strong>Supabase</strong> (PostgreSQL), encrypted
+      in transit and at rest, with row-level security so each record is accessible only to the
+      account that owns it. We use <strong>Sentry</strong> for crash reporting (technical error
+      data, not your training content) and <strong>Expo (EAS)</strong> to deliver app updates.
+      These processors act on our instructions; none of them may use your data for their own
+      purposes.
+    </p>
+
+    <h2>What we don't do</h2>
+    <ul>
+      <li>No selling of personal data — to anyone, ever.</li>
+      <li>No advertising or ad tracking in the app.</li>
+      <li>No sharing with third parties beyond the processors and connections described above.</li>
+    </ul>
+
+    <h2>Retention &amp; deletion</h2>
+    <p>
+      Your data is kept while your account is active. You can <strong>delete your account in
+      the app</strong> (Profile → Delete account), which permanently removes your account and
+      all associated data — profile, plans, workouts, activities, nutrition logs, and service
+      connections.
+    </p>
+
+    <h2>Your rights</h2>
+    <p>
+      Depending on where you live (including under UK/EU GDPR), you have rights to access,
+      correct, export, or erase your personal data. Email us and we'll help.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@trimateapp.com">support@trimateapp.com</a>
+    </p>
+
+    <h2>Changes</h2>
+    <p>
+      If this policy changes materially, we'll update this page and the effective date above.
+    </p>
+
+    <footer>
+      <p>© 2026 Trimate · <a href="index.html">Home</a></p>
+    </footer>
+  </main>
+</body>
+</html>
